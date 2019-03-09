@@ -34,7 +34,7 @@ h1 {
     padding: 4px;
     font-family: Helvetica, Arial, sans-serif;
 		display: flex;
-		flex-direction: row;
+		flex-wrap: wrap;
 }
 
 #nav a:hover, #nav a:active {
