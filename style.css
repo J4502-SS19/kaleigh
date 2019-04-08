@@ -57,3 +57,37 @@ body {
 img {
   border: none;
 }
+@media screen and (min-width: 450px) {
+  nav ul {
+    flex-flow: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #container {
+    width: 80%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    section1 {
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr;
+      grid-gap: 20px;
+      grid-template-areas:
+        "a b b"
+        "c c e"
+        ". d d";
+
+.byline {
+width: 100%;
+grid-area: a;
+}
+
+.section1 {
+grid-area: b;
+}
+
+.image {
+grid-area: c;
+}
